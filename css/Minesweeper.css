@@ -1,0 +1,46 @@
+tr,td{
+    border-color: rgb(22, 22, 22);
+}
+
+td{
+  width:30px ;
+  height:30px ;
+
+}
+h1{
+  text-align: center;
+}
+body {
+  background-color: #a78484;
+ }
+button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 13px;
+    background-color: #f35757;
+    padding: 8px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;  
+    height: 30px;
+    box-sizing: border-box;
+    
+    
+  }  
+  button:hover {
+    cursor: pointer;
+    background-color: rgb(16, 53, 17); 
+    opacity: 1;
+    border: 2px solid crimson;
+    
+    /* height: 50%; */
+
+  }
+  table{
+      margin: 10px auto;
+      border: 5px;
+      min-width: 100px;
+      min-height: 100px;
+     
+  }
